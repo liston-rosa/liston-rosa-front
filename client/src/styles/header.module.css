@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navContainer {
+    
+} 
+
+.titleContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer img {
+    display: block;
+    transform: rotate(-5deg);
+}

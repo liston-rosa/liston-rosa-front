@@ -3,31 +3,36 @@ import { useContext } from "react";
 import Image from "next/image";
 import { GlobalContext } from "@/AppContext/AppContext";
 import Navbar from "@/components/Navbar";
-import ImgListonRosa from "../../images/ImgListonRosa.png";
-import BChomeImg from "../../images/BChomeImg.jpg";
+import ImgListonRosa from "../images/ImgListonRosa.png";
+import BChomeImg from "../images/BChomeImg.jpg";
 
-import styles from "./page.module.css";
+import styles from "../styles/page.module.css";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
-  const { artWork } = useContext(GlobalContext);
+  // const { artWork } = useContext(GlobalContext);
 
   // console.log('artWork', artWork)
   return (
     <div className={styles.homeMain}>
-      <nav className={styles.navContainer}>
+      {/* <nav className={styles.navContainer}>
         <Navbar />
       </nav>
 
       <div className={styles.titleContainer}>
         <Image
           src={ImgListonRosa}
+          alt='Liston Rosa logo'
           width={300}
           height={"auto"}
           style={{ transform: "rotate(-5deg)", marginTop: "-25px" }}
         />
-      </div>
+      </div> */}
 
+      <header>
+        <Header />
+      </header>
       <aside className={styles.quoteContainer}>
         <p>
           "... Este proyecto es un abrazo a todas ellas y a nosotras mismas"
@@ -40,6 +45,7 @@ export default function Home() {
           alt="Group of People"
           width={"auto"}
           height={"auto"}
+          priority
         />
       </div>
 

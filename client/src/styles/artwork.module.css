@@ -1,0 +1,9 @@
+.mainContainer{
+    /* display: flex; */
+    margin: 5px;
+}
+.mainContainer a{
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}

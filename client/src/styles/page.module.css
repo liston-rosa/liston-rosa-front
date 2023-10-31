@@ -7,15 +7,9 @@
   max-width: 100%;
 }
 
-.navContainer {
-  margin-bottom: -25px;
-}
 
-.titleContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
 
 .imgTitle {
   width: 300px;

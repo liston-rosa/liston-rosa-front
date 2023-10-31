@@ -1,11 +1,11 @@
 "use client";
 import {  useEffect, useState } from "react";
 import { GlobalContext } from '@/AppContext/AppContext';
-import { fetchMainObj } from "@/app/utils/fetchs";
+import { fetchMainObj } from "@/utils/fetchs";
 
 
 export const GlobalContextProvider = ({ children }) => {
-    const [artWork, setArtWork] = useState({});
+    const [artWork, setArtWork] = useState();
     const [errorState, setErrorState] = useState(false);
     
 
@@ -19,7 +19,7 @@ export const GlobalContextProvider = ({ children }) => {
           fetchData();
 
     }, [])
-
+    // console.log(artWork)
     return(
         <GlobalContext.Provider value={{artWork, errorState}} >
             {children}

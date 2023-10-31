@@ -14,7 +14,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import ListItem from "@mui/material/ListItem/ListItem";
+import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 
 import styles from "../styles/navbar.module.css";
@@ -108,7 +108,7 @@ export default function Navbar() {
           </ListItem>
           <ListItem>
             <ListItemButton>
-              <Link href="/MapAr" className={styles.anchor}>
+              <Link href="/mapar" className={styles.anchor}>
                 Mapa
               </Link>
             </ListItemButton>
@@ -116,7 +116,7 @@ export default function Navbar() {
 
           <ListItem>
             <ListItemButton>
-              <Link href="/proyectos" className={styles.anchor}>
+              <Link href="/murales" className={styles.anchor}>
                 Murales 
               </Link>
             </ListItemButton>
@@ -138,7 +138,7 @@ export default function Navbar() {
         <List>
           <ListItem>
             <ListItemButton>
-              <Link href="/informacion" className={styles.anchor}>
+              <Link href="/info" className={styles.anchor}>
                 Cancer de mama
               </Link>
             </ListItemButton>
@@ -146,14 +146,14 @@ export default function Navbar() {
 
           <ListItem>
             <ListItemButton>
-              <Link href="/Donaciones" className={styles.anchor}>
+              <Link href="/donaciones" className={styles.anchor}>
                 Donaciones
               </Link>
             </ListItemButton>
           </ListItem>
           <ListItem>
             <ListItemButton>
-              <Link href="/Nosotres" className={styles.anchor}>
+              <Link href="/us" className={styles.anchor}>
                 Nosotres
               </Link>
             </ListItemButton>
