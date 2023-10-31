@@ -5,11 +5,10 @@
 }
 
 .navContainer {
-    
+    width: 75px;
 } 
 
 .titleContainer {
-    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -17,4 +16,6 @@
 .titleContainer img {
     display: block;
     transform: rotate(-5deg);
+    width: calc(100%);
+    height: auto;
 }

@@ -4,5 +4,7 @@
 }
 
 .mapContainer{
+    display: flex;
     align-self: center;
+    width: 100%;
 }

@@ -2,7 +2,7 @@ import axios from "axios";
 
 async function getData(resp) {
   return resp?.data.map((e) => e);
-}
+};
 
 export async function fetchMainObj() {
   const serverURL = process.env.NEXT_PUBLIC_SERVER_URL;
@@ -14,6 +14,19 @@ export async function fetchMainObj() {
     const response = [error, ...objs];
     return response;
   } catch (e) {
-    console.error(`this is the error: ${e}`);
+    console.error(`error message ${e}`);
+  }
+}
+
+export async function fetchSingleArtWork(id) {
+  const serverURL = process.env.NEXT_PUBLIC_SERVER_URL;
+  try {
+    let { data } = await axios(`${serverURL}/artwork/${id}`);
+    let error = data.error;
+    let obj = data.data
+    const response = [error, obj]
+    return response;
+  } catch (e) {
+    console.error(`error message ${e}`);
   }
 }

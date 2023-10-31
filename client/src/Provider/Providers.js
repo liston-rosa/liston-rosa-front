@@ -19,7 +19,6 @@ export const GlobalContextProvider = ({ children }) => {
           fetchData();
 
     }, [])
-    // console.log(artWork)
     return(
         <GlobalContext.Provider value={{artWork, errorState}} >
             {children}

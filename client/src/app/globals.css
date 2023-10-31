@@ -5,9 +5,9 @@ body {
   overflow-y: scroll;
   font-family: 'Caveat', cursive;
   font-family: 'Nunito Sans', sans-serif;
-  background-image: url('../images/bg2.png');
-  background-repeat: repeat;
-  background-size: calc(150%);
+  /* background-image: url('../images/bg2.png'); */
+  background-image: url('../images/background-lr.png');
+   background-size: calc(110%); 
 }
 
 

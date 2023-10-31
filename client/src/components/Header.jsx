@@ -15,7 +15,7 @@ export default function Header() {
         <Image
           src={ImgListonRosa}
           alt="Liston Rosa logo"
-          width={300}
+          width={'auto'}
           height={"auto"}
           priority
         />
