@@ -26,7 +26,6 @@ export default function Murales() {
               name={a.name}
               place={a.place}
               description={a.description}
-              comments={a.comments}
             />
             
           </div>

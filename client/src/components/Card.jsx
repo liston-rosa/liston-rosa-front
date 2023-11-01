@@ -2,8 +2,10 @@ import React from "react";
 import styles from "../styles/artwork.module.css";
 import Link from "next/link";
 
-const Card = ({ id, image, name, place, description, comments }) => {
-    console.log(comments)
+import styles from '../styles/card.module.css'
+
+const Card = ({ id, image, name, place, description }) => {
+    // console.log()
 
   return (
     <div className={styles.mainContainer}>

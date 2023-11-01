@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const ArtWork = ({id, image, name, place, description, comments}) => {
-    console.log(id, image, name, place, description, comments) // check
+    //console.log(id, image, name, place, description, comments) // check
 
   return (
     <div className={styles.mainContainer}>
@@ -26,8 +26,8 @@ const ArtWork = ({id, image, name, place, description, comments}) => {
       <div className="user-cont">
         <p>registrate y comenta</p>
         {
-            comments?.map((e) => (
-                <div>
+            comments?.map((e, i) => (
+                <div key={i}>
                     <p>user: {e.user}</p>
                     <p>{e.title}</p>
                     <p>dijo: {e.body}</p>
