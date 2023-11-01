@@ -10,10 +10,14 @@
     font-size: 19px;
 }
 .artworkContainer{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 3rem 1rem 3rem;
+    margin-bottom: 2rem;
     border: solid 1px rgb(237, 12, 120);
     border-radius: 7px;
+    height: 150px;
+    width: calc(100% - 5%); */
+    display: flex;
+    justify-content: center;
 }
