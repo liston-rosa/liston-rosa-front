@@ -10,6 +10,10 @@ body {
    background-size: calc(110%); 
 }
 
+:root{
+  --pink-border-color: rgb(251, 132, 171)
+}
+
 
 /* :root {
   --max-width: 1100px;

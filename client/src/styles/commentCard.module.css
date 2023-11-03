@@ -1,0 +1,12 @@
+.cardCont{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.commentHeader{
+
+}
+
+.commentBody{
+    background-color: #FFD6E9;
+}

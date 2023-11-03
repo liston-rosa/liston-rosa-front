@@ -7,8 +7,7 @@ import styles from '../styles/murales.module.css'
 
 export default function Murales() {
   const { artWork } = useContext(GlobalContext);
-//   console.log(artWork)
-    // console.log(artWork.map(e => e.comments))
+
   return (
     <div className={styles.listContainer}>
       <header>
@@ -27,7 +26,6 @@ export default function Murales() {
               place={a.place}
               description={a.description}
             />
-            
           </div>
         );
       })}

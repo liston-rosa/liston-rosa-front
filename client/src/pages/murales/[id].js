@@ -32,11 +32,11 @@ export default function details (){
             </div>
             <ArtWork 
             id={details._id}
-            comments={details.comments} //array
+            comments={details.comments}
             description={details.description}
             image={details.image}
             name={details.name}
-            place={details.place} //obj
+            place={details.place}
 
             />
         </div>
