@@ -1,0 +1,15 @@
+.listContainer{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    align-self: center;
+    margin: 3rem 0rem 3rem 0rem;
+}
+.title strong{
+    font-size: 19px;
+}
+.artworkContainer{
+    display: flex;
+    justify-content: center;
+}

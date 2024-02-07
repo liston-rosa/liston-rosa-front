@@ -1,0 +1,53 @@
+
+.footerMainContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    border-style: solid none none;
+    border-color: rgb(251, 132, 171);
+    color: rgb(193, 136, 145);
+    margin-bottom: 15px;
+}
+
+.usContainer{
+    padding-left: 8px;
+}
+.usContainer a{
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(193, 136, 145);
+}
+.mediaContainer{
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.igContainer img{
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+.fbContainer img{
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+.contactContainer{
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 8px;
+}
+.contactContainer p{
+    margin: 3px;
+    font-size: 10px;
+}
+.linkStyle {
+    text-decoration: "none";
+    color: inherit;
+  }

@@ -1,0 +1,57 @@
+.homeMain{
+    overflow-x: hidden;
+}
+
+.quoteContainer{
+    display: flex;
+    align-items: center;
+    margin:0 2rem  ;
+}
+
+.quoteContainer p {
+    /* font-size: 22px; */
+    background-color: rgba(246, 224, 224, 0.867);
+    border-radius: 13px;
+}
+
+.imgHomeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: calc(100% - 15%); */
+}
+
+.imgHomeContainer img{
+    width: calc(100% - 10%);
+    height: auto;
+    margin: 2rem 2rem;
+}
+
+.imgHomeContainer article{
+    font-size: 16px;
+    margin: 0 2rem;
+}
+
+.footerQuoteContainer{
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.support p{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 600;
+    padding: 5px;
+    border-top-style: groove;
+    border-top-color:rgb(251, 132, 171) ; 
+    border-bottom-style: groove;
+    border-bottom-color: rgb(251, 132, 171);
+}
+
+
+.footerQuoteContainer p{
+    
+}

@@ -1,0 +1,75 @@
+.mainContainer {
+  margin: 0 12px;
+  text-align: start;
+
+}
+
+.storyTellingContainer {
+
+}
+
+.storyTellingContainer p{
+}
+
+/* UL */
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CARD */
+.membContainer {
+  display: flex;
+  width: calc(100% - 15%);
+  margin: 5px 0;
+  /* border-style: solid none solid; */
+  align-items: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer img {
+  width: 190px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.descripContainer {
+  display: grid;
+  justify-content: center;
+  align-items: start;
+}
+
+.descripContainer p{
+    margin: 0 0 0 10px;
+}
+
+.descripContainer ul{
+    
+}
+
+.descripContainer ul li {
+    list-style: none;
+    margin-block-start: 0;
+    -webkit-margin-before: 0;
+}
+
+.finalSection{
+    margin: 25px 0;
+}
+
+.muralImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.muralImage img{
+    width: calc(100% - 5%);
+    height: auto;
+}

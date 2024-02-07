@@ -1,0 +1,23 @@
+.infoContainer{
+    background-color: var(--background-pink-color);
+    border-style: solid;
+    border-color: var(--pink-border-color);
+    border-radius: 8px;
+    margin: 25px 15px;
+}
+
+.title{
+    margin: 3px 5px 5px;
+    border-bottom: 1px rgb(139, 77, 77) solid;
+}
+.title em{
+    font-weight: bold;
+}
+
+.body{
+    margin: 0 5px;
+}
+
+.body p{
+    
+}

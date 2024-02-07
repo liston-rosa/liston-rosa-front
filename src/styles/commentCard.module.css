@@ -1,0 +1,52 @@
+
+.commentHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: none none solid;
+    border-color: rgb(251, 132, 171);
+    max-height: 100px;
+    width: 100%;
+}
+
+.commentHeader p{
+    font-weight: bold;
+}
+
+.commentHeader img{
+    justify-self: start;
+    align-self: center;
+    width: 40px;
+    height: auto;
+    margin: 15px;
+}
+
+
+/* .commentBodyContainer{
+    overflow-y: auto;
+    height: max-content;
+    max-height: 190px;
+}
+
+.commentBodyContainer p{
+    font-style: italic;
+}
+
+.cardCont{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    background-color: rgb(255, 214, 233, .5);
+    margin-bottom: 45px;
+    border-color: rgb(221, 96, 138);
+    border-radius: 15px;
+ padding: 6px; 
+    margin: 10px;
+}
+
+.articleBody{
+     margin: 0 14px 7px 7px; 
+     padding: 0 14px 17px 7px; 
+    
+} 
+*/
+
