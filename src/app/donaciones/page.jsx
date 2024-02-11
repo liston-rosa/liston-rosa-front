@@ -1,15 +1,24 @@
-import styles from '@/styles/donaciones.module.css';
-
+import DonationCards from "@/components/DonationCards";
+import styles from "@/styles/donaciones.module.css";
 
 export const metadata = {
-  title: 'Donaciones'
-}
+  title: "Donaciones",
+};
 function page() {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <header
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h1 style={{borderBottom:'solid 2px #cf6ba1', color:'rgb(47, 46, 46)'}}>Donaciones</h1>
+      </header>
+      <DonationCards />
+    </>
+  );
 }
 
-export default page
+export default page;
