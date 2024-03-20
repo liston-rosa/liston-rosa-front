@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { useSession } from "next-auth/react";
+// import { useSession } from "next-auth/react";
 import styles from "@/styles/post.module.css";
 import { Button, Card, CardContent, TextField, Typography } from "@mui/material";
 // import { makeStyles } from '@mui/styles';
