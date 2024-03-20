@@ -6,7 +6,8 @@ import girls from "@/images/girls.jpg";
 import Image from "next/image";
 
 import BC_Mural from "@/images/BC_Mural.jpeg";
-import womenRecovery from '@/images/womenRecovery.jpg'
+// import womenRecovery from '@/images/womenRecovery.jpg'
+import recovery from '@/images/womenRecovery.jpg'
 
 export const metadata = {
   title: "Quienes somos",
@@ -135,7 +136,7 @@ function page() {
         </aside>
         <div className={styles.muralImage}>
           <Image
-            src={womenRecovery}
+            src={recovery}
             alt="mural generado AI"
             width={'auto'}
             height={'auto'}
