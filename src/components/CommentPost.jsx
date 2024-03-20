@@ -40,8 +40,7 @@ const CommentPost = () => {
 
     try {
       const response = await fetch(
-        // `${process.env.APP_URL}/comment/${id}`
-        `https://listonrosa.onrender.com/comment/${id}`,
+        `${process.env.NEXT_PUBLIC_SERVER_URL}/comment/${id}`,
         {
           method: "POST",
           headers: {
@@ -51,7 +50,7 @@ const CommentPost = () => {
         }
       );
       console.log(response.ok)
-      response.ok == true 
+      response.ok 
       ? setTimeout(() => (router.refresh()), 1000) 
       : console.error('error: --> ', response.statusText)
     } catch (error) {

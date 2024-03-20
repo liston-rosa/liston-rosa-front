@@ -1,5 +1,4 @@
 import DonationCards from "@/components/DonationCards";
-import styles from "@/styles/donaciones.module.css";
 
 export const metadata = {
   title: "Donaciones",

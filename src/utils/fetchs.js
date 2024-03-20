@@ -7,8 +7,7 @@ async function getData(resp) {
 
 
 export async function fetchMainObj() {
-  // const serverURL = process.env.APP_URL;
-  const serverURL = 'https://listonrosa.onrender.com'
+  const serverURL = process.env.NEXT_PUBLIC_SERVER_URL;
   try {
     let { data } = await axios(`${serverURL}/artwork`);
     let error = data.error;
@@ -21,8 +20,7 @@ export async function fetchMainObj() {
 }
 
 export async function fetchSingleArtWork(id) {
-  // const serverURL = process.env.APP_URL;
-  const serverURL = 'https://listonrosa.onrender.com'
+  const serverURL = process.env.NEXT_PUBLIC_SERVER_URL;
   try {
     let { data } = await axios(`${serverURL}/artwork/${id}`);
     let error = data.error;

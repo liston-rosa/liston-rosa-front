@@ -1,5 +1,6 @@
 .infoContainer{
     background-color: var(--background-pink-color);
+    background-color: rgb(255, 209, 220);
     border-style: solid;
     border-color: var(--pink-border-color);
     border-radius: 8px;

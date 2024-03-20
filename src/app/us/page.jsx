@@ -6,6 +6,7 @@ import girls from "@/images/girls.jpg";
 import Image from "next/image";
 
 import BC_Mural from "@/images/BC_Mural.jpeg";
+import womenRecovery from '@/images/womenRecovery.jpg'
 
 export const metadata = {
   title: "Quienes somos",
@@ -14,7 +15,7 @@ function page() {
   return (
     <div className={styles.mainContainer}>
       <section className={styles.storyTellingContainer}>
-        <h2> Conocé quienes estan detrás </h2>
+        <h2> Conocé quiénes están detrás </h2>
         <p>
           Somos un grupo de personas perteneciente a la facultad de XXXXX, que
           para la materia XXXXX tuvimos que crear e idear un gran proyecto que
@@ -134,7 +135,7 @@ function page() {
         </aside>
         <div className={styles.muralImage}>
           <Image
-            src={BC_Mural}
+            src={womenRecovery}
             alt="mural generado AI"
             width={'auto'}
             height={'auto'}
