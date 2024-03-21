@@ -1,0 +1,23 @@
+.sponsorsContainer{
+    display: flex; 
+    flex-direction: column; 
+    align-items:center;
+
+}
+
+.sponsorsContainer img{
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+}
+
+@media(width >= 1200px) {
+    .sponsorsContainer img{
+        height: 160px;
+        width: 200px;
+        margin-bottom: 35px;
+    }
+    .sponsorsContainer img:hover{
+        transform: scale(1.1);
+    }
+}
