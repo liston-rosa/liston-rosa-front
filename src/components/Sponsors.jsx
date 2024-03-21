@@ -13,6 +13,8 @@ import maybelline from "@/images/brands/maybelline.png";
 import rexona from "@/images/brands/rexona.png";
 import vichy from "@/images/brands/vichy.png";
 
+import styles from '@/styles/sponsors.module.css'
+
 const images = [
   always,
   chanel,
@@ -28,10 +30,10 @@ const images = [
 
 function Sponsors() {
   return (
-    <div style={{ display:'flex', flexDirection:'column', alignItems:'center'}}>
+    <div className={styles.sponsorsContainer}>
       {images?.map((im, i) => (
         <div key={i}>
-          <Image src={im} width={100} height={70} style={{margin: '2rem'}} alt="campaing donator"/>
+          <Image src={im} width={'auto'} height={'auto'} alt="campaing donator"/>
         </div>
       ))}
     </div>

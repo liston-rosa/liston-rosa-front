@@ -1,12 +1,9 @@
-import Link from "next/link";
 import React from "react";
-import styles from "@/styles/us.module.css";
 import boys from "@/images/boys.jpg";
 import girls from "@/images/girls.jpg";
 import Image from "next/image";
-
-import BC_Mural from "@/images/BC_Mural.jpeg";
 import recovery from "@/images/recovery.jpg"
+import styles from "@/styles/us.module.css";
 
 export const metadata = {
   title: "Quienes somos",
@@ -24,7 +21,7 @@ function page() {
         </p>
       </section>
 
-      <h4>El grupo: </h4>
+      <h3>El grupo: </h3>
       <div className={styles.members}>
         <div className={styles.membContainer}>
           <div className={styles.imgContainer}>

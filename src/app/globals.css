@@ -17,7 +17,7 @@ body {
   --background-pink-color: #fed3ff;
 }
 
-@media screen and (min-width: 1024px) {
+@media (600px <= width <= 1200px) {
   *,
   *::after,
   *::before {
@@ -32,14 +32,17 @@ body {
   }
 
   body {
-    max-width: 990px;
-    
+   
   }
 }
 
-.roboto{
-  font-family: var(--font-roboto);
+@media( width >= 1200px){
+  body{
+
+  }
 }
+
+
 
 /* :root {
   --max-width: 1100px;

@@ -1,5 +1,6 @@
 import InfoCard from "@/components/InfoCard";
 import info from '@/utils/info.json';
+import styles from '@/styles/infoCard.module.css'
 
 export const metadata = {
   title: 'Información'
@@ -11,7 +12,7 @@ const page = () => {
 
   
   return (
-    <div>
+    <div className={styles.InfoCardMainContainer}>
       {
         breastCancerInfo?.map((obj, i) => <InfoCard id={obj.id} q={obj.question} a={obj.answer} key={i}/>)
       }

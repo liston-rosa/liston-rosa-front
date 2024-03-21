@@ -9,7 +9,6 @@
 }
 
 .quoteContainer p {
-    /* font-size: 22px; */
     background-color: rgba(246, 224, 224, 0.867);
     border-radius: 13px;
 }
@@ -52,6 +51,29 @@
 }
 
 
-.footerQuoteContainer p{
-    
+@media (600px <= width <= 1200px) {
+
+}
+
+@media (width >= 1200px) {
+
+    .quoteContainer p{
+        font-size: 20px;
+        font-family: var(--font-roboto);
+    }
+
+    .imgHomeContainer article{
+        font-size: 18px;
+        text-align: center;
+        margin: 35px 165px;
+    }
+
+    .footerQuoteContainer p{
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .support p{
+        font-size: 25px;
+    }
 }

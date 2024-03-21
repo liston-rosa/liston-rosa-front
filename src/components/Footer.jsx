@@ -15,19 +15,19 @@ function Footer() {
   return (
     <div className={styles.footerMainContainer}>
       <div className={styles.usContainer}>
-        <Link href="/us" target="_blank" rel="noopener noreferrer">
+        <Link href="/us">
           us
         </Link>
       </div>
       <div className={styles.mediaContainer}>
         <div className={styles.igContainer}>
-          <a
+          <Link
             href="http://instagram.com/liston_rosa"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src={instagram} alt="" />
-          </a>
+          </Link>
         </div>
 
         <div className={styles.fbContainer}>
@@ -50,34 +50,6 @@ function Footer() {
         >
           <WhatsAppIcon />
         </Link>
-       {/* 
-       
-       <Link
-          href={"https://twitter.com/cristreachi"}
-          target="_blank"
-          className={styles.linkStyle}
-          rel="noopener noreferrer"
-        >
-          <XIcon />
-        </Link>
-         
-        <Link
-          href={"https://www.facebook.com/cristian.treachi/"}
-          target="_blank"
-          className={styles.linkStyle}
-          rel="noopener noreferrer"
-        >
-          <FacebookIcon />
-        </Link>
-        <Link href={'https://www.facebook.com/cristian.treachi/'}
-        target="_blank"
-        className={styles.linkStyle} 
-        rel="noopener noreferrer"
-        >
-          <InstagramIcon />
-        </Link> 
-
-        */}
 
         {info.map((e, i) => (
           <p key={i}>{e}</p>

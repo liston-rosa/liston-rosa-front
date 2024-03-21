@@ -3,3 +3,9 @@
   font-weight: normal;
   color: rgb(255, 103, 217);
 }
+
+@media (1200px <= width){
+  .anchor{
+    font-size: 20px;
+  }
+}
