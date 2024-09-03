@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BChomeImg from "../images/BChomeImg.jpg";
-import styles from "../styles/page.module.css";
 import Sponsors from "@/components/Sponsors";
+import styles from "../styles/page.module.css";
 
 export default function Home() {
   return (

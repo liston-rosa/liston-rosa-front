@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
           defer
         ></script>
       </Head>
-      <body className={roboto_init.variable}>
+      <body className={roboto_init.variable} >
           {/* <UserProvider> */}
             <Header />
             <GlobalContextProvider>{children}</GlobalContextProvider>

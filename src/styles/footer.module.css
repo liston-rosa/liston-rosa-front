@@ -1,5 +1,6 @@
 .footerMainContainer {
   display: grid;
+  align-self: end;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   border-style: solid none none;

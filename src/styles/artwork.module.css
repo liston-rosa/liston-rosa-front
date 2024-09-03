@@ -1,3 +1,10 @@
+.mainContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
 .imgContainer{
     display: flex;
     justify-content: center;
@@ -32,8 +39,10 @@
 }
 
 .artWorkComments{
-    /* background-color: pink; */
+    background-color: pink;
     margin: 0 7px 0 7px;
+    margin: 0, auto;
+    width: 100%;
     
 }
 .artWorkComments h4{
@@ -47,4 +56,13 @@
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
+}
+
+.commentsListContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+
 }

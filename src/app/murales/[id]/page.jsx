@@ -14,7 +14,6 @@ export default function Details() {
   const [error, setErrorState] = useState(false);
   const { id } = useParams();
 
-
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchSingleArtWork(id);
@@ -25,26 +24,35 @@ export default function Details() {
   }, []);
 
   return (
-    <div>
-      <ArtModal backstage={ details.backstage ? details.backstage : undefined } title={details.name}/>
-      <ArtWork
-        id={details._id}
-        comments={details.comments}
-        description={details.description}
-        image={details.image}
-        name={details.name}
-        place={details.place}
-        coordinates={details.coordinates}
+    <div className="">
+      <ArtModal
+        backstage={details.backstage ? details.backstage : undefined}
+        title={details.name}
       />
-      <div className={styles.artWorkComments}>
-        <div className={styles.commentPost}>
-          <CommentPost />
-        </div>
-        {details.comments?.map((e, i) => (
-          <div key={i}>
-            <CommentCard user={e.user} title={e.title} body={e.body} />
+
+      <div className={styles.mainContainer}>
+        <ArtWork
+          id={details._id}
+          comments={details.comments}
+          description={details.description}
+          image={details.image}
+          name={details.name}
+          place={details.place}
+          coordinates={details.coordinates}
+        />
+
+        <div className={styles.artWorkComments}>
+          
+          <div className={styles.commentPost}>
+            <CommentPost />
           </div>
-        ))}
+
+          <div className={styles.commentsListContainer}>
+            {details.comments?.map((e, i) => (
+              <CommentCard user={e.user} title={e.title} body={e.body} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
