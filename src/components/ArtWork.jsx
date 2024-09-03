@@ -2,12 +2,14 @@ import React from "react";
 import Image from "next/image";
 
 import styles from "../styles/artwork.module.css";
+import Gallery from "./Gallery";
 
 const ArtWork = ({ image, name, place, description }) => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.imgContainer}>
-       { image ? <Image src={image} alt="Art work image" width={100} height={100} /> : undefined}
+       {/* { image ? <Image src={image} alt="Art work image" width={100} height={100} /> : undefined} */}
+        <Gallery />
       </div>
       <div className={styles.artworkCont}>
         <h3>{name}</h3>
