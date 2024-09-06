@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 import styles from "../styles/artwork.module.css";
-import Gallery from "./Gallery";
 import Carousel from "./Carousel";
 
 const ArtWork = ({ image, name, place, description }) => {
@@ -11,8 +10,6 @@ const ArtWork = ({ image, name, place, description }) => {
     <div className={styles.mainContainer}>
 
       <div className={styles.imgContainer}>
-        
-        {/* { image && <Gallery image={image}/> } */}
         {
           image && <Carousel image={image}/>
         }
