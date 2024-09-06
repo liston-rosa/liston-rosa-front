@@ -34,36 +34,3 @@ const CardList = ({ id, image, name, place, description }) => {
   );
 };
 export default CardList;
-
-{
-  /* 
-        <div className={styles.card}>
-          <Image
-            src={muralG}
-            alt="proyecto"
-            width={"auto"}
-            height={"auto"}
-            priority
-          />
-          <div className={styles.descripContainer}>
-            <h4>{name}</h4>
-
-            <div className={styles.state}>
-              <p>
-                <strong>Provincia:</strong> {place?.state}
-              </p>
-            </div>
-            <div className={styles.city}>
-              <p>
-                <strong>Ciudad:</strong> {place?.city}
-              </p>
-            </div>
-          </div>
-          <div className={styles.description}>
-            <p>
-              {description}
-            </p>
-          </div>
-        </div> 
-  */
-}

@@ -1,4 +1,3 @@
-
 .commentHeader{
     display: flex;
     flex-direction: row;
@@ -21,32 +20,4 @@
     margin: 15px;
 }
 
-
-/* .commentBodyContainer{
-    overflow-y: auto;
-    height: max-content;
-    max-height: 190px;
-}
-
-.commentBodyContainer p{
-    font-style: italic;
-}
-
-.cardCont{
-    display: grid;
-    grid-template-rows: 30% 70%;
-    background-color: rgb(255, 214, 233, .5);
-    margin-bottom: 45px;
-    border-color: rgb(221, 96, 138);
-    border-radius: 15px;
- padding: 6px; 
-    margin: 10px;
-}
-
-.articleBody{
-     margin: 0 14px 7px 7px; 
-     padding: 0 14px 17px 7px; 
-    
-} 
-*/
 
