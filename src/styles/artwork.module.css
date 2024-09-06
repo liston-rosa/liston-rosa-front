@@ -10,12 +10,12 @@
     justify-content: center;
     align-items: center;
 }
-.imgContainer img{
+/* .imgContainer img{
     width: calc(100% - 10%);
     height:  300px;
     border-radius: 7px ;
 
-}
+} */
 
 .artworkCont{
     display: flex;

@@ -42,14 +42,15 @@ export default function Details() {
         />
 
         <div className={styles.artWorkComments}>
-          
           <div className={styles.commentPost}>
             <CommentPost />
           </div>
 
           <div className={styles.commentsListContainer}>
             {details.comments?.map((e, i) => (
-              <CommentCard user={e.user} title={e.title} body={e.body} />
+              <section key={i}>
+                <CommentCard user={e.user} title={e.title} body={e.body} />
+              </section>
             ))}
           </div>
         </div>
