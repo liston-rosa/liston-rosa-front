@@ -1,11 +1,13 @@
 .listContainer{
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
 }
 .title{
     align-self: start;
-
-
+    margin: 0 0 0 3rem;
 }
 .title p{
     font-size: 19px;

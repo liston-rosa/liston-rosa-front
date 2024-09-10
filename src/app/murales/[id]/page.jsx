@@ -1,13 +1,14 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import { useRouter, useParams } from "next/navigation";
-import ArtWork from "@/components/ArtWork";
+import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
+
 import { fetchSingleArtWork } from "@/utils/fetchs";
+import ArtWork from "@/components/ArtWork";
 import CommentPost from "@/components/CommentPost";
 import CommentCard from "@/components/CommentCard";
-
-import styles from "@/styles/artwork.module.css";
 import ArtModal from "@/components/ArtModal";
+
+import styles from "@/styles/artWorkPage.module.css";
 
 export default function Details() {
   const [details, setDetails] = useState({});
@@ -25,11 +26,14 @@ export default function Details() {
 
   return (
     <div className="">
+
+      {/* BackStage Modal*/}
       <ArtModal
         backstage={details.backstage ? details.backstage : undefined}
         title={details.name}
       />
 
+      {/* Card */}
       <div className={styles.mainContainer}>
         <ArtWork
           id={details._id}

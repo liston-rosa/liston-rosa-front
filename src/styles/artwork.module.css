@@ -1,27 +1,18 @@
 .mainContainer{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     width: 100%;
 }
-
 
 .imgContainer{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* .imgContainer img{
-    width: calc(100% - 10%);
-    height:  300px;
-    border-radius: 7px ;
-
-} */
 
 .artworkCont{
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .artworkCont h3{
@@ -30,38 +21,9 @@
 
 .artworkCont article{
     align-self: center;
-    /* text-align: center; */
     margin: 15px 15px 15px 15px;
 }
 
 .artworkCont p{
     margin-left: 15px;
-}
-
-.artWorkComments{
-    background-color: pink;
-    margin: 0 7px 0 7px;
-    margin: 0, auto;
-    width: 100%;
-    
-}
-.artWorkComments h4{
-    border-top: var(--pink-border-color);
-    text-align: center;
-}
-
-.artWorkComments {
-    margin: 0 10px 10px 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.commentsListContainer{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    justify-content: center;
-    align-items: center;
-
 }
